@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>  
+        <link rel="icon" href="1.jpg"/>
+        <link rel="shortcut" href="1.jpg"/>
+        <link rel="apple-touch-icon" href="1.jpg"/>
+        
+        
+        <meta  name="discription" content="kkjkjkjkjk">  
+        <title></title>
+    </head>
+    <body>
+      <form >
+        <label > Hospital name:</label>
+        <input type="text" name="Hospital name" placeholder="enter your name" value="مستشفى من دخل خرج ميت" readonly required>
+        <br>
+        <label > First name:</label>
+        <input type="text" name="First name" pattern="enter your first name" maxlength="20" autofocus required>
+        <br>
+        <label > Last name:</label>
+        <input type="text" name="Last name" placeholder="enter your last name" maxlength="30" required>
+        <br>
+        <label > Email:</label>
+        <input type="email" name="email" placeholder="enter your email" autocomplete="additional-name" required>
+        <br>
+        <label > Phone:</label>
+        <input type="tel" name="Phone" placeholder="enter your telphone" value="77" maxlength="9" required>
+        <br>
+        <label > password:</label>
+        <input type="password" name="password" placeholder="enter your password" inputmode="numeric" maxlength="8" size="8" required>
+        <br>
+        <label > github link:</label>
+        <a href="https://github.com/" target="_blank" > send to github.com</a>
+        <br>
+        <label > age:</label>
+        <input type="date" name="age" value="2000-01-01" required>
+        <br>
+        <label > time for reservation:</label>
+        <input type="time" name="time for reservation" required>
+        <br>
+        <label > price for reservation:</label>
+        <input type="number" name="time for reservation" max="1000" required>
+        <br>
+        <p>gender:</p>
+        <label > male</label>
+        <input type="radio" name="male" checked required>
+        <label >famale</label>
+        <input type="radio" name="famale" required>
+        <br>
+        <label > male:</label>
+        <input type="radio" name="male" required>
+        <br>
+        <p>choose department</p>
+        <select name="choose department" required >
+            <option autofocus>القلب</option>
+            <option value="">الباطنية</option>
+            <option disabled>الطوارى</option>
+            <option value="">العيون</option>
+        </select>
+        <br>
+        <p>checked city</p>
+        <input list="cities" id="city" placeholder="checked city">
+        <datalist  id="cities"> 
+            <option value="sanna">
+                <option value="aden">
+                    <option value="tazi">
+        </datalist>
+        <br>
+        <label >note:</label>
+        <textarea name="note" cols="20" rows="15" placeholder="write the note"></textarea>
+        <br>
+        <label >Upload imgage:</label>
+        <br>
+        <input type="file" accept=".jpg,.png" >
+        <br>
+        <input type="hidden" name="number" value="123354" >
+        <br>
+        <button type="reset">Empty Form</button>
+        <br>
+        <button type="submit"> Send Data</button>
+        
+        
+
+        
+      </form>
+    </body>
+</html>
